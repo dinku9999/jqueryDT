@@ -12,9 +12,9 @@ function tableCleaner(tableName){    // for example first 3 column data in the r
 // considering that there are 5 columns in a datatable , and you want to remove a row if first 3 elements in the datatable are empty or null 
 
 
-function tableCleanerForOneRow(tableName){    // for example first 3 column data in the row
+function tableCleanerForOneRow(tableName){    // for example 3rd column data in the row
 			$('#'+tableName+' tbody tr').each(function() {
-			    if($(this)[0].childNodes[0].innerHTML==""||$(this)[0].childNodes[0].innerHTML ==" " || $(this)[0].childNodes[0].innerHTML==null){
+			    if($(this)[0].childNodes[2].innerHTML==""||$(this)[0].childNodes[2].innerHTML ==" " || $(this)[0].childNodes[2].innerHTML==null){
 			    	$(this).remove();
 			    }
 			}); // give the number of childnode corresponding to the element you want to verify this data for example 1 for column 2
