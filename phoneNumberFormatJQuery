@@ -1,0 +1,9 @@
+function formatPhoneNumber(phoneNumber){
+	if(phoneNumber.length==10){
+    phoneNumber = phoneNumber.replace(/ /g,''); // can remove this  if no space removal needed 
+		return phoneNumber.replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3");
+	}
+	else{
+		return phoneNumber;
+	}
+}
