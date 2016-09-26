@@ -15,6 +15,22 @@ $("#spinner").css( "display", "block" );   ——— when you want to show.
 $("#spinner").css( "display", "none" );——  when you want it to hide.
 // use above commands for toggling on and off the spinner
 
+
+step-4 // Include this in css
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 100px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+    overflow: visible;
+}
+
 DONE. Use it where ever you want to start and stop, make sure you handle error case as well 
 
 
