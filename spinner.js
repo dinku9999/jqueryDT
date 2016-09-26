@@ -8,6 +8,7 @@ step -1  // html
 
 step -2 // images file
 in the images download the image you want to spin and rename it as default.gif and place in your images
+// you can download it here if you havent got one http://loading.io/
 
 step-3 //script
 Spinner js
