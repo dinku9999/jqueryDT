@@ -16,4 +16,8 @@ function tableCleanerForOneRow(tableName){    // for example , if first 3rd elem
 			    if($(this)[0].childNodes[2].innerHTML==""||$(this)[0].childNodes[2].innerHTML ==" " || $(this)[0].childNodes[2].innerHTML==null){
 			    	$(this).remove();
 			    }
-			}); // give the number of childnode corresponding to the element you want to verify this data for example 1 for column 2
+			}); 
+}
+
+//END
+			
